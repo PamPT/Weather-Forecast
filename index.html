@@ -3,40 +3,47 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="src/style.css" />
     <title>Weather Forecast</title>
   </head>
   <body>
-    <header>
-      <form action="">
-        <input type="search" placeholder="Enter a city.." required />
-        <input type="submit" value="Search" />
-      </form>
-    </header>
-    <main>
-        <div></div>
-      <h1>Sucre</h1>
-      <p>
-        Friday 18:40, broken clouds <br />
-        Humidity: 79%, Wind: 3.6km/h
-      </p>
-      </div>
-      <div>
-      ⛅ 12°C
-      </div>
-    </main>
-    <footer>
-      The project was coded by
-      <a href="https://github.com/PamPT" target="_blank">
-        Pamela Pacheco Torrico
-      </a>
-      is open sourced on
-      <a href="https://github.com/PamPT/Weather-Forecast" target="_blank">
-        GitHub
-      </a>
-      and hosted on
-      <a href="https://p-weather-forecast.netlify.app/" target="_blank">
-        Netlify
-      </a>
-    </footer>
+    <div class="weather-app">
+      <header>
+        <form action="">
+          <input type="search" placeholder="Enter a city.." required />
+          <input type="submit" value="Search" />
+        </form>
+      </header>
+      <main>
+        <div>
+          <h1>Sucre</h1>
+          <p>
+            Friday 18:40, broken clouds <br />
+            Humidity: 79%, Wind: 3.6km/h
+          </p>
+        </div>
+        <div>⛅ 12°C</div>
+      </main>
+      <footer>
+        The project was coded by
+        <a href="https://github.com/PamPT" target="_blank">
+          Pamela Pacheco Torrico
+        </a>
+        is open sourced on
+        <a href="https://github.com/PamPT/Weather-Forecast" target="_blank">
+          GitHub
+        </a>
+        and hosted on
+        <a href="https://p-weather-forecast.netlify.app/" target="_blank">
+          Netlify
+        </a>
+      </footer>
+    </div>
   </body>
 </html>
