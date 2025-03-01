@@ -43,6 +43,7 @@ header {
 .search-input {
   background-color: rgb(253 253 253 / 60%);
   border: none;
+  outline: 0;
   border-radius: 6px;
   width: 80%;
   padding: 12px 20px;
@@ -81,16 +82,18 @@ main {
   display: flex;
 }
 .weather-temperature {
-  font-size: 90px;
+  font-size: 100px;
   font-weight: bold;
-  margin-left: 10px;
+  line-height: 95px;
 }
 .weather-icon {
-  font-size: 45px;
-  margin-top: 22px;
+  width: 88px;
+  height: 88px;
 }
 .weather-unit {
-  margin-top: 23px;
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: bold;
 }
 footer {
   border-top: 0.5px solid rgb(253 253 253 / 46%);
